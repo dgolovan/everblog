@@ -1,0 +1,8 @@
+<div ng-repeat="post in notes" class="post-preview">
+	<h3><a href="/everpost/{{ post.guid }}">{{ post.title }}</a> <br />
+	<small class="post-header">{{ post.date_modified | date:'MMM dd, yyyy'}} | by {{post.author}}</small></h3>
+	<p ng-bind-html-unsafe="post.content"></p>
+	<div class="tag-cloud btn-group btn-group-xs">
+		<a ng-repeat="tag in post.tags" href="/everblog/tag/{{tag.guid}}" class="btn btn-primary" role="button">{{tag.name}}</a>
+	</div>
+</div>

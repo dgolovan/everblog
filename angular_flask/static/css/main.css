@@ -1,0 +1,92 @@
+
+.masthead {
+	padding: 30px 0 30px;
+	margin-bottom: 0;
+}
+
+.masthead h1 {
+	font-size: 75px;
+	line-height: 1;
+	letter-spacing: -2px;
+	font-weight: bold;
+}
+
+.header-section {
+	padding: 50px 0;
+	background: #222;
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	width: 100%;
+	padding-left: 0;
+	margin-left: 0;
+	color: #FFF;
+}
+
+.header-row {
+	width: 960px;
+	margin: auto;
+}
+
+.header-push {
+	height: 250px;
+}
+
+.main {
+	padding-top: 20px;
+	min-height: 370px;
+}
+
+.footer-left {
+	float: left;
+}
+
+.footer-right {
+	float: right;
+}
+
+.flashes {
+	list-style-type: none;
+	margin-left: 0;
+}
+
+/* Added by DG */
+.top-pad-15{
+	padding-top: 15px;
+}
+.post-header {
+	/*font-size: 11px;*/
+	color: #CCCCCC;
+}
+.post-preview{
+	padding-bottom: 15px;
+	/*border-bottom: 1px #CCCCCC solid;*/
+}
+.hidden {
+	display: none;
+}
+.post-body-edit {
+	/*width: 800px;*/
+	height: 400px !important;
+}
+.navbar-right {
+	position: relative;
+}
+#signinButton {
+	position: relative;
+}
+#signinInfo {
+	position: relative;
+	top:10px;
+	right: 0px;
+	width: 140px;
+}
+#signinInfo a {
+	float: left;
+}
+.welcome-box{
+    line-height: 115%;
+    float: right; 
+    font-size: 13px;
+    color: #999;
+  }

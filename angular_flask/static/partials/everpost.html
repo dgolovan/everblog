@@ -1,0 +1,18 @@
+<div>
+	<div class="page-header">
+	<h1>{{ note.title }}</h1><br />
+	<small class="post-header">{{ note.date_modified | date:'MMM dd, yyyy'}} | by {{note.author}}</small>
+	</div>
+	
+	<p ng-bind-html-unsafe="note.content"></p>
+	
+	<div class="tag-cloud btn-group btn-group-xs">
+		<a ng-repeat="tag in note.tags" href="/everblog/tag/{{tag.guid}}" class="btn btn-primary" role="button">{{tag.name}}</a>
+	</div>
+
+	<br /><br />
+	
+	<div class="btn-group top-pad-15">
+		<a href="/everblog" class="btn btn-default" role="button">Back</a>
+	</div>
+</div>
